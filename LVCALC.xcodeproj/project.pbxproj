@@ -23,6 +23,7 @@
 		3D2AF55026D0D06B00F6DD33 /* CalculatorVCViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AF54F26D0D06B00F6DD33 /* CalculatorVCViewModelTest.swift */; };
 		3D2AF55226D1059700F6DD33 /* CalculatorVM + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AF55126D1059700F6DD33 /* CalculatorVM + Ext.swift */; };
 		3D2AF55626D1133C00F6DD33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D2AF55526D1133C00F6DD33 /* GoogleService-Info.plist */; };
+		3D2AF55926D1254E00F6DD33 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AF55826D1254E00F6DD33 /* AppManager.swift */; };
 		3D8D341A26CE881800D119E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D341926CE881800D119E4 /* AppDelegate.swift */; };
 		3D8D342126CE881800D119E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D341F26CE881800D119E4 /* Main.storyboard */; };
 		3D8D342326CE881900D119E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D342226CE881900D119E4 /* Assets.xcassets */; };
@@ -69,6 +70,7 @@
 		3D2AF54F26D0D06B00F6DD33 /* CalculatorVCViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVCViewModelTest.swift; sourceTree = "<group>"; };
 		3D2AF55126D1059700F6DD33 /* CalculatorVM + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalculatorVM + Ext.swift"; sourceTree = "<group>"; };
 		3D2AF55526D1133C00F6DD33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D2AF55826D1254E00F6DD33 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		3D8D341626CE881800D119E4 /* LVCALC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LVCALC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8D341926CE881800D119E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D8D342026CE881800D119E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				3D8D342226CE881900D119E4 /* Assets.xcassets */,
 				3D8D342426CE881900D119E4 /* LaunchScreen.storyboard */,
 				3D8D342726CE881900D119E4 /* Info.plist */,
+				3D2AF55826D1254E00F6DD33 /* AppManager.swift */,
 			);
 			path = LVCALC;
 			sourceTree = "<group>";
@@ -532,6 +535,7 @@
 				3DEB094726CFA661009B7617 /* ToggleSettingVC.swift in Sources */,
 				3D8D341A26CE881800D119E4 /* AppDelegate.swift in Sources */,
 				3D225F2026D017AB004C7CE2 /* Utility.swift in Sources */,
+				3D2AF55926D1254E00F6DD33 /* AppManager.swift in Sources */,
 				3D8D345826CEB14A00D119E4 /* CalculatorVCViewModel.swift in Sources */,
 				3D8D344F26CEAF4F00D119E4 /* CommonExtension.swift in Sources */,
 				3D8D345C26CECB1700D119E4 /* BaseVC.swift in Sources */,
